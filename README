@@ -1,0 +1,26 @@
+#Get Author
+
+Get Author is a programming project for alert media interview consisting of a python script that uses Selenium to navigate google and stackoverflow to return the author of the top voted answer on stackoverlow's most frequent python-3.6 post
+
+##Prerequisites:
+*Linux Mint 20.2
+*Google Chrome 98 or higher
+*Python 3.8.10
+*chromedriver matching your version of google-chrome https://chromedriver.chromium.org/download (must be added to PATH)
+* pip package manager ($ sudo apt install python3-pip)
+
+## Install dependencies and run
+$ chmod +x initiate.sh
+$ ./intiate.sh
+
+## Manually install dependencies and run
+$ pip install -r requirements.txt
+$ python3 get_author.py
+
+## Notes
+Script will likely run with other versions of google-chrome, different operating systems, and different version of Python3, but was only tested in the above environment.
+
+
+
+
+
