@@ -106,7 +106,9 @@ def get_author():
     driver.find_element(By.XPATH,vars.more).click()
     driver.find_element(By.XPATH,vars.frequent).click()
     driver.find_element(By.XPATH,vars.first_post).click()
-    return(driver.find_element(By.XPATH,vars.author_answer_most_votes).text)
+    author = driver.find_element(By.XPATH,vars.author_answer_most_votes).text
+    driver.close()
+    return(author)
 
 
 def main():
